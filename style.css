@@ -14,20 +14,19 @@ h1 {
 h2 {
   font-size: 30px;
   margin-left: 100px;
-  text-transform: lowercase;
-  font-weight: lighter;
+  text-transform: uppercase;
   color:#333484;
   text-align: left;
   font-family: 'Open Sans Condensed', sans-serif;
   max-width: auto;
+  border-top: .1em white solid;
   padding-right: .9em;
-  padding-top: .5em;
   margin-top: 100px;
 }
 
 h3 {
   font-size: 20px;
-  margin-left: 100px;
+  margin-left: 105px;
   padding-bottom: 10px;
   max-width: 500px;
   color:#333484;
@@ -35,6 +34,18 @@ h3 {
   font-family: 'Open Sans Condensed', sans-serif;
 }
 
+h5 {
+  font-size: 15px;
+  margin-left: 105px;
+  margin-top:-20px;
+  padding-bottom: 10px;
+  max-width: 500px;
+  color:#333484;
+  text-align: left;
+  font-family: 'Open Sans Condensed', sans-serif;
+  }
+
+}
 img {
   width: 500px;
   height: auto;
@@ -45,10 +56,12 @@ img {
 
 body {
   height:100%;
-  width: 100%;
+  width: auto;
   background-position: fixed;
   background-image: url('leaf.svg'),url('leaf2.svg'),linear-gradient(#c6dcff,#f6ffbf,#f6ffbf,#c6dcff);
   background-repeat: no-repeat;
+  padding-top: 200px;
+  padding-right: 200px;
 }
 
 .kauai {
@@ -58,20 +71,24 @@ body {
 .row {
   display: flex;
   flex-wrap: wrap;
-  padding: 0 4px;
+  padding: 0 px;
 }
 
 /* Create four equal columns that sits next to each other */
 .column {
   flex: 25%;
-  max-width: 25%;
-  padding: 0 4px;
+  max-width: 50%;
+  padding: 0 10px;
   padding-bottom: 10px;
+  margin-left: 50px;
+
 }
 
 .column img {
-  margin-top: 2px;
+  margin-top: 8px;
   vertical-align: middle;
+  width: 100%;
+  margin-left: 50px;
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
@@ -101,4 +118,10 @@ body {
     width: 100%;
     margin: 20px;
     padding: 1em;
+  }
+
+  .smaller {
+    font-size: 17px;
+    font-weight: lighter;
+    padding-left: 1em;
   }
