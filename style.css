@@ -106,10 +106,6 @@ body {
     max-width: 100%;
   }
 
-  .leaf {
-    padding-top: 200px;
-  }
-
   .flexbox1 {
     display: flex;
   }
