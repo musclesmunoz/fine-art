@@ -14,13 +14,14 @@ h1 {
 h2 {
   font-size: 30px;
   margin-left: 100px;
-  text-transform: uppercase;
+  text-transform: lowercase;
+  font-weight: lighter;
   color:#333484;
   text-align: left;
   font-family: 'Open Sans Condensed', sans-serif;
   max-width: auto;
-  border-top: .1em white solid;
   padding-right: .9em;
+  padding-top: .5em;
   margin-top: 100px;
 }
 
@@ -90,4 +91,14 @@ body {
 
   .leaf {
     padding-top: 200px;
+  }
+
+  .flexbox1 {
+    display: flex;
+  }
+
+  .flexbox1 img {
+    width: 100%;
+    margin: 20px;
+    padding: 1em;
   }
