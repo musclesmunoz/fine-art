@@ -1,5 +1,6 @@
 h1 {
   font-size: 60px;
+  letter-spacing: 1px;
   padding-top: 100px;
   margin-left: 100px;
   color:#333484;
@@ -9,6 +10,7 @@ h1 {
   line-height: 55px;
 }
 
+
 h2 {
   font-size: 30px;
   margin-left: 100px;
@@ -16,12 +18,10 @@ h2 {
   color:#333484;
   text-align: left;
   font-family: 'Open Sans Condensed', sans-serif;
-  max-width: 500px;
-  border: .05em white solid;
-  padding: .5em;
-  padding-left: .9em;
+  max-width: auto;
+  border-top: .1em white solid;
   padding-right: .9em;
-  margin-top: 200px;
+  margin-top: 100px;
 }
 
 h3 {
@@ -43,8 +43,15 @@ img {
 }
 
 body {
-  background: linear-gradient(#c6dcff, #f6ffbf);
-  height: auto;
+  height:100%;
+  width: 100%;
+  background-position: fixed;
+  background-image: url('leaf.svg'),url('leaf2.svg'),linear-gradient(#c6dcff,#f6ffbf,#f6ffbf,#c6dcff);
+  background-repeat: no-repeat;
+}
+
+.kauai {
+  padding-top: 200px;
 }
 
 .row {
@@ -80,8 +87,7 @@ body {
     flex: 100%;
     max-width: 100%;
   }
-}
 
-.leaf {
-  float: right;
-}
+  .leaf {
+    padding-top: 200px;
+  }
