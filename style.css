@@ -1,3 +1,9 @@
+.full-column.row-1 {
+  height: 300px;
+  width: auto;
+  background: linear-gradient(#c6dcff, #f6ffbf, white);
+}
+
 h1 {
   font-size: 60px;
   letter-spacing: 1px;
@@ -10,7 +16,6 @@ h1 {
   line-height: 55px;
 }
 
-
 h2 {
   font-size: 30px;
   margin-left: 100px;
@@ -19,7 +24,7 @@ h2 {
   text-align: left;
   font-family: 'Open Sans Condensed', sans-serif;
   max-width: auto;
-  border-top: .1em white solid;
+  border-top: .1em #333484 solid;
   padding-right: .9em;
   margin-top: 100px;
 }
@@ -34,10 +39,23 @@ h3 {
   font-family: 'Open Sans Condensed', sans-serif;
 }
 
+h4 {
+  font-size: 20px;
+  margin-left: 100px;
+  padding-left: .9em;
+  font-family: 'Spinnaker', sans-serif;
+  text-transform: uppercase;
+  color:#333484;
+  text-align: left;
+  max-width: 500px;
+  margin-top: 200px;
+  margin-bottom: 100px;
+}
+
 h5 {
   font-size: 15px;
   margin-left: 100px;
-  margin-top:-20px;
+  margin-top:-30px;
   padding-bottom: 10px;
   max-width: 500px;
   color:#333484;
@@ -45,27 +63,17 @@ h5 {
   font-family: 'Open Sans Condensed', sans-serif;
   }
 
-}
 img {
   width: 500px;
   height: auto;
   display: block;
   margin-left: 100px;
-  padding-top: 20px;
+  margin-right: 100px;
 }
 
-body {
-  height:100%;
-  width: auto;
-  background-position: fixed;
-  background-image: url('leaf.svg'),url('leaf2.svg'),linear-gradient(#c6dcff,#f6ffbf,#f6ffbf,#c6dcff);
-  background-repeat: no-repeat;
-  padding-top: 200px;
-  padding-right: 200px;
-}
-
-.kauai {
-  padding-top: 200px;
+.border img {
+  border: .05em #333484 solid;
+  padding: 0em;
 }
 
 .row {
@@ -77,18 +85,15 @@ body {
 /* Create four equal columns that sits next to each other */
 .column {
   flex: 25%;
-  max-width: 50%;
-  padding: 0 10px;
-  padding-bottom: 10px;
-  margin-left: 50px;
-
+  max-width: 40%;
+  padding: 0 15px;
+  padding-bottom: 15px;
 }
 
 .column img {
-  margin-top: 8px;
+  margin-top: 20px;
   vertical-align: middle;
   width: 100%;
-  margin-left: 50px;
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
@@ -105,7 +110,11 @@ body {
     flex: 100%;
     max-width: 100%;
   }
+<<<<<<< HEAD
 
+=======
+}
+>>>>>>> gh-pages
   .flexbox1 {
     display: flex;
   }
@@ -116,6 +125,12 @@ body {
     padding: 1em;
   }
 
+  .full-column.row-2 {
+    background:linear-gradient(white, #f6ffbf, #c6dcff);
+    height: 300px;
+    margin-top: 50px;
+  }
+  
   .smaller {
     font-size: 17px;
     font-weight: lighter;
